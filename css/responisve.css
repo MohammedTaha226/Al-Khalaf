@@ -1,0 +1,208 @@
+/* Small Screens */
+@media (min-width: 991px) and (max-width: 1100px) 
+{
+	
+	.header .navBar .logo
+	{
+		margin-left:50px
+	}
+}
+
+
+/* small Screens & tablets & Smart phone */
+@media (max-width: 991px) 
+{
+	
+	.titleStyle
+	{
+		font-size:22px
+	}
+	
+	.header .navBar .logo
+	{
+		margin:0 auto;
+		display:block;
+		float:none;
+		margin-bottom:15px;
+		text-align:center
+	}
+	
+	.slider .slider-details
+	{
+		padding-top:80px
+	}
+	
+	.slider .slider-details h2
+	{
+		margin-bottom:20px;
+		font-size:25px
+	}
+	.slider .slider-details p
+	{
+	    line-height: 25px;
+	    font-size: 14px;
+	}
+	
+	.slider img
+	{
+		height:300px
+	}
+	
+	.the-slider-control li	span i
+	{
+		opacity:0.5;
+		top:calc(50% - 33px)
+	}
+	
+	.bx-wrapper .bx-pager.bx-default-pager
+	{
+		display:none
+	}
+	
+	.services .owl-theme .owl-controls .owl-buttons div
+	{
+		left:0
+	}
+	
+	.services .owl-theme .owl-controls .owl-buttons div.owl-next
+	{
+		right:0
+	}
+	
+	.services .item
+	{
+		padding:0 10px
+	}
+	
+	.footerDetails
+	{
+		text-align:center
+	}
+	
+	footer .footerDetails p
+	{
+		max-width:100%
+	}
+	
+	footer .infoContent .location
+	{
+		text-align:center;
+		display:block;
+		float:none;
+		margin:0;
+		margin-bottom:20px
+	}
+	
+	
+	
+	footer .infoContent .location i
+	{
+		float:none;
+		margin-bottom:15px;
+		display:inline-block
+	}
+	
+	footer .infoContent .location p
+	{
+		width:100%!important;
+		text-align:center;
+		float:none
+	}
+	
+	footer .social li
+	{
+		float:none;
+		width:100%;
+		margin:0;
+		display:block
+	}
+	
+	footer .social li:not(:last-of-type)
+	{
+		margin-right:0
+	}
+	
+	
+	footer .social li a
+	{
+		width:100%;
+		margin-bottom:20px
+	}
+	
+	footer .footerDown
+	{
+		text-align:center
+	}
+	
+	footer  .footerDown p
+	{
+		margin-bottom:20px;
+		float:none;
+	}
+	
+	footer .footerDown .logoTaha
+	{
+		float:none;
+	}
+	
+	.order-box .modal-body
+	{
+		padding:50px 15px
+	}
+	
+}
+
+/* Small Screens */
+@media (min-width: 768px) and (max-width: 991px) 
+{
+	
+	
+}
+
+/* Mobile & Tablets */
+@media (max-width: 767px) 
+{
+	.header .navBar ul li a
+	{
+	    font-size: 16px;
+	    padding: 0 14px;
+	}
+}
+
+/* Tablets */
+@media (min-width:480px) and (max-width: 767px)
+{
+	.header .navBar .order
+	{
+		padding:0 15px;
+		font-size:14px
+	}
+}
+
+/* Mobile */
+@media (max-width: 479px) 
+{
+	.header .navBar ul,
+	.header .navBar ul li
+	{
+		float:none;
+		text-align:center
+	}
+	
+	.header .navBar ul li
+	{
+		display:inline-block
+	}
+	
+	.header .navBar .order
+	{
+		float:none;
+		display:block
+	}
+	.header .navBar ul li a {
+	    font-size: 14px;
+	    padding: 0 7px;
+	}
+	
+	
+}
